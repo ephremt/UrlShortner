@@ -2,6 +2,7 @@
 A Nodejs REST API to shorten a url
 
 Instructions:
+
 To run the tests:
 
 1. Clone the repository,  "git clone https://github.com/ephremt/UrlShortner.git"
@@ -14,7 +15,7 @@ To run the application locally:
 1. cd to UrlShortner folder
 2. run "node server.js"
 
-At this point you can use client tools like post-man (a google chrome extension) to make a POST request to send a long url and get shortened one or do a GET request to get a long version of the shortened url.
+At this point you can use tools like postman (a google chrome extension) to make a POST request to send a long url and get shortened one or do a GET request to get a long version of a shortened url.
 
 Exmaples:
 
