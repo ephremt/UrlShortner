@@ -16,3 +16,22 @@ To run the application locally:
 
 At this point you can use client tools like post-man (a google chrome extension) to make a POST request to send a long url and get shortened one or do a GET request to get a long version of the shortened url.
 
+Exmaples:
+
+POST:
+
+Post request url: http://localhost:3001/url_shortener/shorten
+
+Request Body: {"long_url":"http://localhost:3001?somequery=somevalues&anonerlongquesry=verrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalue"}
+
+Reponse Body: {
+"shortUrl": "http://localhost:3001/qUz"
+}
+
+GET:
+
+Get request url:  http://localhost:3001/url_shortener/qUz
+
+Response body: {
+"long_url": "http://localhost:3001?somequery=somevalues&anonerlongquesry=verrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalue"
+}
