@@ -6,13 +6,13 @@ Instructions:
 To run the tests:
 
 1. Clone the repository,  `git clone https://github.com/ephremt/UrlShortner.git`
-2. cd to  UrlShortner folder
+2. cd to  `UrlShortner` folder
 3. run `npm install`
 4. run `npm test` to run functional tests.
 
 To run the application locally:
 
-1. cd to UrlShortner folder
+1. cd to `UrlShortner` folder
 2. run `node server.js`
 
 At this point you can use tools like postman (a google chrome extension) to make a POST request to send a long url and get shortened one or do a GET request to get a long version of a shortened url.
@@ -21,9 +21,9 @@ Exmaples:
 
 POST:
 
-Post request url: http://localhost:3001/url_shortener/shorten
+Post request url: ` http://localhost:3001/url_shortener/shorten`
 
-Request Body:``` {"long_url":"http://localhost:3001?somequery=somevalues&anonerlongquesry=verrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalue"}```
+Request Body: ``` {"long_url":"http://localhost:3001?somequery=somevalues&anonerlongquesry=verrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalueverrylongvalue"}```
 
 Reponse Body: ```{
 "shortUrl": "http://localhost:3001/qUz"
