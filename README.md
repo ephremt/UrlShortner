@@ -3,12 +3,13 @@ A Nodejs REST API to shorten a url
 
 Instructions:
 
+ Clone the repository,  `git clone https://github.com/ephremt/UrlShortner.git`
+ 
 To run the tests:
 
-1. Clone the repository,  `git clone https://github.com/ephremt/UrlShortner.git`
-2. cd to  `UrlShortner` folder
-3. run `npm install`
-4. run `npm test` to run functional tests.
+1. cd to  `UrlShortner` folder
+2. run `npm install`
+3. run `npm test` to run functional tests.
 
 To run the application locally:
 
